@@ -1,0 +1,21 @@
+{
+    "mcpServers": {
+      "hello-world-1": {
+        "command": "node",
+        "args": ["/Users/donthireddy/code/mcp-samples/mcp-ts-starter/build/stdio.js"]
+      },
+      "hello-world-2": {
+        "command": "node",
+        "args": ["/Users/donthireddy/code/mcp-samples/mcp-ts-starter-2/build/stdio.js"]
+      },
+      "weather": {
+        "command": "uv",
+        "args": [
+            "--directory",
+            "/Users/donthireddy/code/mcp-samples/weather-server-python",
+            "run",
+            "weather.py"
+        ]
+      }
+    }
+  }

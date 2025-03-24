@@ -1,0 +1,31 @@
+{
+  "name": "hello-world-mcp",
+  "version": "1.0.0",
+  "description": "A simple Hello World MCP server",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "tsc",
+    "start": "node build/stdio.js",
+    "start:http": "node build/http.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "hello-world"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk":"^1.7.0",
+    "express": "^4.18.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.5",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}
