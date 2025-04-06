@@ -14,4 +14,5 @@ Ask question in Claude Desktop like the following:
 "What's the weather in San Francisco?"  
 "Ping"  
 "Is 73 an even or odd number?"  
+add 1 and 2 tell me if the output is add or even number?  
 "greet Vijay"
